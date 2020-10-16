@@ -37,5 +37,6 @@ const perimetroRombo = async () => {
     let l1: number
     l1 = parseInt( await leerTeclado('Introduce el valor del lado del rombo en cm'))
     console.log(`El perímetro del rombo es ${l1*4}`)
-main()
+
 }
+main()
